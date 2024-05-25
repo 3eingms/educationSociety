@@ -12,3 +12,16 @@
 	});
 	
 })(jQuery);
+
+
+// open overlay popup
+document.getElementById("openOverlayOne").addEventListener('click',(e)=>{
+	e.preventDefault()
+	document.getElementById('overlayOne').style.display='flex'
+})
+
+document.getElementById('overlayOne').addEventListener('click', function(event) {
+    if (event.target === this) {
+        this.style.display = 'none';
+    }
+});
