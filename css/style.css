@@ -128,7 +128,8 @@ blockquote:before{
 	margin-bottom:40px;
 	h1{
 		color: navy;
-		font-family: "Caveat", cursive;
+		/* font-family: "Caveat", cursive; */
+		font-family: "Smooch Sans", sans-serif
 
 	}
 }
@@ -289,9 +290,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .hero-headig{
 	color: navy;
 	/* font-family: "Rammetto One", sans-serif; */
-	 /* font-family: "Cinzel", serif; */
+	 font-family: "Cinzel", serif;
 	   /* font-family: "Smooch Sans", sans-serif; */
-	     font-family: "Bricolage Grotesque", sans-serif;
+	     /* font-family: "Bricolage Grotesque", sans-serif; */
 }
 
 .main-menu li a {
