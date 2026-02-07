@@ -126,8 +126,10 @@ blockquote:before{
 
 .section-header {
 	margin-bottom:40px;
-	h2{
-		color: blue;
+	h1{
+		color: navy;
+		font-family: "Caveat", cursive;
+
 	}
 }
 
@@ -228,7 +230,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 	p{
 		max-width: 80%;
-		color: white;
+		color: navy;
 		font-weight: bold;
 		margin-top: 2rem;
 	}
@@ -237,6 +239,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .navbar-brand .logo {
 	margin-top: 10px;
 	display: inline-block;
+	font-family: "Rammetto One", sans-serif;
+	font-weight: 300;
+
 }
 
 .navbar-brand .logo > img {
@@ -252,7 +257,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		margin-left:15px;
 
 		p{
-			font-size: 15px;
+			font-size: 12px;
 		}
 	}
 	
@@ -279,7 +284,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 #header.transparent-nav .main-menu li a {
-	color:#FFF;
+	color:navy;
+}
+.hero-headig{
+	color: navy;
+	font-family: "Rammetto One", sans-serif;
 }
 
 .main-menu li a {
